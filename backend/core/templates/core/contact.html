@@ -1,0 +1,45 @@
+{% extends "core/base.html" %}
+
+{% block title %}
+Contact | VUA ServiceDesk
+{% endblock %}
+
+
+{% block content %}
+
+<section class="page-heading">
+
+    <p class="eyebrow">Get in touch</p>
+
+    <h1>Contact Us</h1>
+
+    <p>
+        Contact the Department of Software Engineering
+        for enquiries and assistance.
+    </p>
+
+</section>
+
+
+<section class="status-panel">
+
+    <h2>Department Information</h2>
+
+    <p>
+        <strong>Department:</strong>
+        {{ department_name }}
+    </p>
+
+    <p>
+        <strong>Email:</strong>
+        {{ email }}
+    </p>
+
+    <p>
+        <strong>Office Hours:</strong>
+        {{ office_hours }}
+    </p>
+
+</section>
+
+{% endblock %}
